@@ -1,8 +1,13 @@
 aid: friendster
 name: Friendster
-description: Friendster is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Friendster is a mobile-first social network for real-life friends, operating at friendster.com
+  with a native iOS app and a web experience. The service positions itself around privacy and intentional
+  design — no ads, no algorithms, no spam, and an explicit promise never to sell user data — and centers
+  on connecting people with the friends they actually know in real life. It was surfaced as a portfolio
+  company of Battery Ventures and added to the API Evangelist network as a stub. As of this enrichment
+  pass Friendster publishes a consumer marketing site and a native iOS app, but exposes no public developer
+  program, API, OpenAPI, or documentation surface — so there are no API artifacts to harvest, only company
+  identity and live domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/friendster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +15,41 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social Network
+- Social Media
+- Consumer
+- Mobile
+- Privacy
+image: https://friendster.com/img/OGimg.png
 apis: []
+common:
+- type: DomainSecurity
+  url: security/friendster-domain-security.yml
+- type: Website
+  url: https://friendster.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
