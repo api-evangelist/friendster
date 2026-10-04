@@ -43,7 +43,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Social Network
-- Social-Media
+- Social Media
 - Consumer
 - Mobile
 - Privacy
@@ -54,6 +54,7 @@ tags_raw:
 - Consumer
 - Mobile
 - Privacy
+- Social-Media
 image: https://friendster.com/img/OGimg.png
 apis: []
 common:
